@@ -1,0 +1,9 @@
+# default recipe
+default:
+    just --list
+
+run:
+    streamlit run backend/streamlit.py --server.address 0.0.0.0
+
+langgraph-up:
+    langgraph dev

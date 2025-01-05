@@ -1,0 +1,7 @@
+{
+  "dependencies": ["./home_assistant"],
+  "graphs": {
+    "agent": "./home_assistant/agents.py:get_graph"
+  },
+  "env": ".env"
+}
